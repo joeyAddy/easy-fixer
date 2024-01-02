@@ -21,7 +21,7 @@ const Login = () => {
         <div className="md:mx-auto md:p-12 flex flex-col justify-center md:w-5/6 h-full">
           {/* <!--Logo--> */}
           <div className="text-center">
-            <h4 className="mb-12 mt-1 pb-1 text-xl font-semibold">
+            <h4 className="mb-12 md:6 md:mt-1 pb-1 text-xl font-semibold">
               Welcome back!
             </h4>
           </div>
