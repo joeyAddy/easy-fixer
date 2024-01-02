@@ -17,7 +17,7 @@ const SignUp = () => {
     <div className="g-0 lg:flex lg:flex-wrap h-full w-full">
       {/* <!-- Left column container--> */}
       <div className="px-4 md:px-0 lg:w-6/12">
-        <div className="md:mx-auto md:p-12 flex flex-col justify-center w-5/6 h-full">
+        <div className="md:mx-auto md:p-12 flex flex-col justify-center md:w-5/6 h-full">
           {/* <!--Logo--> */}
           <div className="text-center">
             <h4 className="mb-12 mt-1 pb-1 text-xl font-semibold">
