@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.joeydevs.easy_fixer",
+      "sha256_cert_fingerprints": [
+        "CC:AA:5B:A6:EB:D0:A8:96:18:2E:85:80:37:50:BA:44:C6:5B:B5:00:09:DE:33:2A:C0:40:04:1B:A7:93:7F:FB"
+      ]
+    }
+  }
+]
