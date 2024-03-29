@@ -18,6 +18,7 @@ const FAQAccordionCard = ({
           className="group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base font-bold transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:text-green-600  [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:text-green-400"
           type="button"
           data-te-collapse-init
+          data-te-collapse-collapsed
           data-te-target={`#flush-collapse${index}`}
           aria-expanded="false"
           aria-controls={`flush-collapse${index}`}
@@ -35,9 +36,8 @@ const FAQAccordionCard = ({
       </h2>
       <div
         id={`flush-collapse${index}`}
-        className="!visible border-0"
+        className="!visible hidden border-0"
         data-te-collapse-item
-        data-te-collapse-show
         aria-labelledby={`flush-heading${index}`}
         data-te-parent="#accordionFAQ"
       >
