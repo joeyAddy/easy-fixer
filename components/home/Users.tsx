@@ -14,12 +14,12 @@ const Users = () => {
             <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
               <stop
                 id="stop1"
-                stop-color="rgba(55, 248, 185.891, 0.12)"
+                stopColor="rgba(55, 248, 185.891, 0.12)"
                 offset="0%"
               ></stop>
               <stop
                 id="stop2"
-                stop-color="rgba(31, 251, 157.845, 0.24)"
+                stopColor="rgba(31, 251, 157.845, 0.24)"
                 offset="100%"
               ></stop>
             </linearGradient>
@@ -30,7 +30,7 @@ const Users = () => {
             width="100%"
             height="100%"
             transform="translate(50 50)"
-            stroke-width="0"
+            strokeWidth="0"
           ></path>
         </svg>
       </span>
@@ -64,12 +64,10 @@ const Users = () => {
                               </h5>
 
                               <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                                In ac turpis justo. Vivamus auctor quam vitae
-                                odio feugiat pulvinar. Sed semper ligula sed
-                                lorem tincidunt dignissim. Nam sed cursus
-                                lectus. Proin non rutrum magna. Proin gravida,
-                                justo et imperdiet tristique turpis nisi
-                                viverra.
+                                I love how simple and straightforward EasyFixer
+                                is to use. I can quickly top up my airtime or
+                                pay my electricity bill in just a few taps. It's
+                                a game-changer!
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 96 960 960"
@@ -154,15 +152,14 @@ const Users = () => {
                           <div className="flex flex-wrap justify-center">
                             <div className="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
                               <h5 className="mb-2 text-lg text-center font-bold">
-                                John Doe
+                                John Ameh
                               </h5>
 
                               <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                                Maecenas auctor, quam eget tincidunt pretium,
-                                felis diam semper turpis, sed scelerisque diam
-                                libero facilisis libero. Quisque vitae semper
-                                metus. Aliquam eu dui aliquam, faucibus metus
-                                quis, elementum nunc.
+                                EasyFixer has saved me so much time and effort.
+                                I no longer have to worry about missing bill
+                                payments or standing in long queues. EasyFixer
+                                is a lifesaver!
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 96 960 960"
@@ -250,11 +247,10 @@ const Users = () => {
                                 Anna Deynah
                               </h5>
                               <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                                Duis sagittis, turpis in ullamcorper venenatis,
-                                ligula nibh porta dui, sit amet rutrum enim
-                                massa in ante. Curabitur in justo at lorem
-                                laoreet ultricies. Nunc ligula felis, sagittis
-                                eget nisi vitae ex arcu sit amet erat.
+                                The convenience of EasyFixer is unmatched. I
+                                can't imagine going back to the old way of
+                                paying bills. EasyFixer has simplified my life
+                                in more ways than one.
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 96 960 960"

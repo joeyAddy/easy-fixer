@@ -46,9 +46,9 @@ const NavigationBar = () => {
                 className="h-7 w-7"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </span>
@@ -76,7 +76,7 @@ const NavigationBar = () => {
             <li data-te-nav-item-ref>
               <a
                 className="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
-                href="#!"
+                href="/"
                 data-te-nav-link-ref
                 data-te-ripple-init
                 data-te-ripple-color="light"
@@ -98,7 +98,7 @@ const NavigationBar = () => {
             <li className="mb-2 lg:mb-0" data-te-nav-item-ref>
               <a
                 className="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
-                href="#!"
+                href="/login"
                 data-te-nav-link-ref
                 data-te-ripple-init
                 data-te-ripple-color="light"
@@ -109,7 +109,7 @@ const NavigationBar = () => {
             <li className="mb-2 lg:mb-0" data-te-nav-item-ref>
               <a
                 className="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
-                href="#!"
+                href="/faqs"
                 data-te-nav-link-ref
                 data-te-ripple-init
                 data-te-ripple-color="light"

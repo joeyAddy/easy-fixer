@@ -40,11 +40,11 @@ export default function Home() {
                 y2="0"
               >
                 <stop
-                  stop-color="rgba(55, 248, 185.891, 0.12)"
+                  stopColor="rgba(55, 248, 185.891, 0.12)"
                   offset="0%"
                 ></stop>
                 <stop
-                  stop-color="rgba(31, 251, 157.845, 0.24)"
+                  stopColor="rgba(31, 251, 157.845, 0.24)"
                   offset="100%"
                 ></stop>
               </linearGradient>
@@ -63,8 +63,8 @@ export default function Home() {
           >
             <defs>
               <linearGradient id="sw-gradient-dark" x1="0" x2="0" y1="1" y2="0">
-                <stop stop-color="hsl(240, 4%, 28%)" offset="0%"></stop>
-                <stop stop-color="hsl(0, 0%, 15%)" offset="100%"></stop>
+                <stop stopColor="hsl(240, 4%, 28%)" offset="0%"></stop>
+                <stop stopColor="hsl(0, 0%, 15%)" offset="100%"></stop>
               </linearGradient>
             </defs>
             <path
@@ -146,7 +146,7 @@ export default function Home() {
                         className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-green-500 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-green-500-600 focus:text-green-500-600 focus:outline-none focus:ring-0 active:text-green-500-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        href="#!"
+                        href="/signup"
                         role="button"
                       >
                         Learn more
@@ -184,7 +184,7 @@ export default function Home() {
                         className="mb-2 inline-block rounded bg-green-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        href="#!"
+                        href="/signup"
                         role="button"
                       >
                         Get started
@@ -226,7 +226,7 @@ export default function Home() {
                         className="mb-2 inline-block rounded bg-green-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        href="#!"
+                        href="/signup"
                         role="button"
                       >
                         Get started

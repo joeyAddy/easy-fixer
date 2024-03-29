@@ -13,11 +13,14 @@ const Footer = () => {
 
             <ul className="mb-0 list-none space-y-3">
               <li>
-                <a href="#!" className="text-neutral-800 dark:text-neutral-200">
-                  FAQ
+                <a
+                  href="/faqs"
+                  className="text-neutral-800 dark:text-neutral-200"
+                >
+                  FAQs
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#!" className="text-neutral-800 dark:text-neutral-200">
                   Privacy Policy
                 </a>
@@ -26,7 +29,7 @@ const Footer = () => {
                 <a href="#!" className="text-neutral-800 dark:text-neutral-200">
                   Terms
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -63,7 +66,10 @@ const Footer = () => {
 
             <ul className="mb-0 list-none">
               <li>
-                <a href="#!" className="text-neutral-800 dark:text-neutral-200">
+                <a
+                  href="/faqs"
+                  className="text-neutral-800 dark:text-neutral-200"
+                >
                   No. 29A, <br /> Berkley Street, <br /> Onikan Lagos{" "}
                 </a>
               </li>
