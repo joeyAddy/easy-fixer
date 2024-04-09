@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center bg-green-100 text-center dark:bg-neutral-600 lg:text-left">
+    <footer className="flex flex-col items-center bg-orange-100 text-center dark:bg-neutral-600 lg:text-left">
       <div className="container py-6">
         <div className="md:grid md:grid-cols-4 gap-6 w-full md:px-16">
           {/* <!--First links section--> */}
@@ -84,18 +84,21 @@ const Footer = () => {
 
             <ul className="mb-0 list-none space-y-3">
               <li>
-                <a href="#!" className="text-neutral-800 dark:text-neutral-200">
+                <a
+                  target="_blank"
+                  href="https://chat.whatsapp.com/EHEOIXzIuWqDI1evNY2FsJ"
+                  className="text-neutral-800 dark:text-neutral-200"
+                >
                   Whatsapp
                 </a>
               </li>
               <li>
-                <a href="#!" className="text-neutral-800 dark:text-neutral-200">
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#!" className="text-neutral-800 dark:text-neutral-200">
-                  Twitter
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=61557295831414"
+                  className="text-neutral-800 dark:text-neutral-200"
+                >
+                  Facebook
                 </a>
               </li>
             </ul>
@@ -104,7 +107,7 @@ const Footer = () => {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="w-full bg-green-200 p-4 space-y-3 dark:bg-neutral-700 dark:text-neutral-200">
+      <div className="w-full bg-orange-200 p-4 space-y-3 dark:bg-neutral-700 dark:text-neutral-200">
         <p className="text-center text-neutral-700">
           © {new Date().getFullYear()} Copyright{" "}
           <a

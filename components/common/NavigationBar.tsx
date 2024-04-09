@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import logo from "@/assets/images/logo.png";
 
 const NavigationBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -55,9 +56,13 @@ const NavigationBar = () => {
           </button>
 
           {/* <!-- Navbar Brand --> */}
-          <a className="text-green-600 dark:text-green-400" href="#!">
+          <a className="text-orange-600 dark:text-orange-400" href="#!">
             <span className="[&>svg]:ml-2 [&>svg]:mr-3 [&>svg]:h-6 [&>svg]:w-6 [&>svg]:lg:ml-0">
-              <h1 className="text-lg font-semibold">Logo</h1>
+              <img
+                alt="Logo"
+                className="h-20 w-32 object-contain"
+                src={logo.src}
+              />
             </span>
           </a>
         </div>
@@ -127,7 +132,7 @@ const NavigationBar = () => {
           <button
             onClick={() => router.push("/login")}
             type="button"
-            className="mr-2 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-green-600 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-green-600 focus:text-green-600 focus:outline-none focus:ring-0 active:text-green-700 dark:text-green-400 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60 dark:hover:text-green-500 dark:focus:text-green-500 dark:active:text-green-600"
+            className="mr-2 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-orange-600 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-orange-600 focus:text-orange-600 focus:outline-none focus:ring-0 active:text-orange-700 dark:text-orange-400 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60 dark:hover:text-orange-500 dark:focus:text-orange-500 dark:active:text-orange-600"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
@@ -136,7 +141,7 @@ const NavigationBar = () => {
           <button
             onClick={() => router.push("/signup")}
             type="button"
-            className="inline-block rounded bg-green-600 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+            className="inline-block rounded bg-orange-600 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-orange-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
             data-te-ripple-init
             data-te-ripple-color="light"
           >

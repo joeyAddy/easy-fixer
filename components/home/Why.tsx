@@ -13,12 +13,12 @@ const Why = () => {
             <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
               <stop
                 id="stop1"
-                stopColor="rgba(55, 248, 185.891, 0.12)"
+                stopColor="rgba(255, 159, 68, 0.12)"
                 offset="0%"
               ></stop>
               <stop
                 id="stop2"
-                stopColor="rgba(31, 251, 157.845, 0.24)"
+                stopColor="rgba(255, 102, 0, 0.24)"
                 offset="100%"
               ></stop>
             </linearGradient>
@@ -42,11 +42,8 @@ const Why = () => {
         >
           <defs>
             <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-              <stop stopColor="rgba(31, 251, 157.845, 0.24)" offset="0%"></stop>
-              <stop
-                stopColor="rgba(55, 248, 185.891, 0.12)"
-                offset="100%"
-              ></stop>
+              <stop stopColor="rgba(255, 159, 68, 0.24)" offset="0%"></stop>
+              <stop stopColor="rgba(255, 102, 0, 0.12)" offset="100%"></stop>
             </linearGradient>
           </defs>
           <path

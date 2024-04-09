@@ -6,11 +6,11 @@ const Stats = () => {
       <section className="text-center">
         <h2 className="mb-12 text-3xl font-bold text-blue-950">
           There are good reasons to{" "}
-          <u className="text-green-500 dark:text-green-400">be proud</u>
+          <u className="text-orange-500 dark:text-orange-400">be proud</u>
         </h2>
         <div className="grid md:grid-cols-3 lg:gap-x-12">
           <div className="mb-12 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-green-100 lg:bg-white p-4 text-green">
+            <div className="mb-6 inline-block rounded-md bg-orange-100 lg:bg-white p-4 text-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -26,16 +26,16 @@ const Stats = () => {
                 />
               </svg>
             </div>
-            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-green-400">
+            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-orange-400">
               1000
             </h3>
-            <h5 className="text-lg font-medium text-green-500 dark:text-neutral-300">
+            <h5 className="text-lg font-medium text-orange-500 dark:text-neutral-300">
               Transactions
             </h5>
           </div>
 
           <div className="mb-12 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-green-100 p-4 text-green">
+            <div className="mb-6 inline-block rounded-md bg-orange-100 p-4 text-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -51,16 +51,16 @@ const Stats = () => {
                 />
               </svg>
             </div>
-            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-green-400">
+            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-orange-400">
               89%
             </h3>
-            <h5 className="text-lg font-medium text-green-500 dark:text-neutral-300">
+            <h5 className="text-lg font-medium text-orange-500 dark:text-neutral-300">
               Growth
             </h5>
           </div>
 
           <div className="mb-12 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-green-100 p-4 text-green">
+            <div className="mb-6 inline-block rounded-md bg-orange-100 p-4 text-orange">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -81,10 +81,10 @@ const Stats = () => {
                 />
               </svg>
             </div>
-            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-green-400">
+            <h3 className="mb-4 text-2xl font-bold text-blue-950 dark:text-orange-400">
               469
             </h3>
-            <h5 className="text-lg font-medium text-green-500 dark:text-neutral-300">
+            <h5 className="text-lg font-medium text-orange-500 dark:text-neutral-300">
               Regular Users
             </h5>
           </div>

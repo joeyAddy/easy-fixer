@@ -15,7 +15,7 @@ const FAQAccordionCard = ({
     <div className="rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200">
       <h2 className="mb-0" id={`flush-heading${index}`}>
         <button
-          className="group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base font-bold transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:text-green-600  [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:text-green-400"
+          className="group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base font-bold transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:text-orange-600  [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:text-orange-400"
           type="button"
           data-te-collapse-init
           data-te-collapse-collapsed

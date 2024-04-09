@@ -40,11 +40,11 @@ export default function Home() {
                 y2="0"
               >
                 <stop
-                  stopColor="rgba(55, 248, 185.891, 0.12)"
+                  stopColor="rgba(255, 159, 68, 0.12)" // Saturated orange color with opacity
                   offset="0%"
                 ></stop>
                 <stop
-                  stopColor="rgba(31, 251, 157.845, 0.24)"
+                  stopColor="rgba(255, 102, 0, 0.24)" // Saturated orange color with opacity
                   offset="100%"
                 ></stop>
               </linearGradient>
@@ -73,6 +73,7 @@ export default function Home() {
             ></path>
           </svg>
         </span>
+
         {/* <!-- SVG Background --> */}
 
         <div
@@ -91,7 +92,7 @@ export default function Home() {
               data-te-target="#carouselExampleIndicators"
               data-te-slide-to="0"
               data-te-carousel-active
-              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-green-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-orange-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
@@ -99,14 +100,14 @@ export default function Home() {
               type="button"
               data-te-target="#carouselExampleIndicators"
               data-te-slide-to="1"
-              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-green-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-orange-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
               aria-label="Slide 2"
             ></button>
             <button
               type="button"
               data-te-target="#carouselExampleIndicators"
               data-te-slide-to="2"
-              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-green-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+              className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-orange-600 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
               aria-label="Slide 3"
             ></button>
           </div>
@@ -119,14 +120,14 @@ export default function Home() {
               data-te-carousel-item
               data-te-carousel-active
             >
-              <div className="block w-full px-6 pb-6 text-center md:px-[4.5rem] lg:my-12 lg:text-left">
+              <div className="block w-full px-6 pb-6 text-center md:px-[4.5rem] lg:text-left">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                   <div className="grid items-center gap-12 lg:grid-cols-2">
-                    <div className="mt-10 lg:mt-0 space-y-3 md:space-y-5">
+                    <div className="mt-10 lg:-mt-10 space-y-3 md:space-y-5">
                       <h1 className="text-blue-950 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                         Simplify your bill payments
                         <br />
-                        <span className="text-green-600">
+                        <span className="text-orange-600">
                           in a few quick steps.
                         </span>
                       </h1>
@@ -134,7 +135,7 @@ export default function Home() {
                         Easy just got Easier with paying bills.
                       </p>
                       <a
-                        className="mb-2 inline-block rounded bg-green-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                        className="mb-2 inline-block rounded bg-orange-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-orange-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init
                         data-te-ripple-color="light"
                         href="#!"
@@ -143,7 +144,7 @@ export default function Home() {
                         Get started
                       </a>
                       <a
-                        className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-green-500 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-green-500-600 focus:text-green-500-600 focus:outline-none focus:ring-0 active:text-green-500-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
+                        className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-orange-500 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-orange-500-600 focus:text-orange-500-600 focus:outline-none focus:ring-0 active:text-orange-500-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
                         data-te-ripple-init
                         data-te-ripple-color="light"
                         href="/signup"
@@ -152,10 +153,10 @@ export default function Home() {
                         Learn more
                       </a>
                     </div>
-                    <div className="mb-12 lg:mb-0">
+                    <div className="mb-12 -mt-10 lg:mb-0">
                       <img
                         src={mobilePayments.src}
-                        className="w-full rounded-lg"
+                        className="w-[90%] rounded-lg"
                         alt=""
                       />
                     </div>
@@ -168,20 +169,20 @@ export default function Home() {
               className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
               data-te-carousel-item
             >
-              <div className="block w-full px-6 pb-6 text-center md:px-[4.5rem] lg:my-12 lg:text-left">
+              <div className="block w-full px-6 pb-6 text-center md:px-[4.5rem] lg:text-left">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                   <div className="grid items-center gap-12 lg:grid-cols-2">
-                    <div className="mt-10 lg:mt-0 space-y-3 md:space-y-5">
+                    <div className="mt-10 lg:-mt-10 space-y-3 md:space-y-5">
                       <h1 className="text-blue-950 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                         Safe, secure and just as fast as you
                         <br />
-                        <span className="text-green-600">think about it</span>
+                        <span className="text-orange-600">think about it</span>
                       </h1>
                       <p className="text-reen-900">
                         Easy just got Easier with paying bills.
                       </p>
                       <a
-                        className="mb-2 inline-block rounded bg-green-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                        className="mb-2 inline-block rounded bg-orange-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-orange-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init
                         data-te-ripple-color="light"
                         href="/signup"
@@ -190,10 +191,10 @@ export default function Home() {
                         Get started
                       </a>
                     </div>
-                    <div className="mb-12 lg:mb-0">
+                    <div className="mb-12 -mt-10 lg:mb-0">
                       <img
                         src={secure.src}
-                        className="w-full rounded-lg"
+                        className="w-[90%] rounded-lg"
                         alt=""
                       />
                     </div>
@@ -213,7 +214,7 @@ export default function Home() {
                       <h1 className="text-blue-950 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                         Never miss an episode of
                         <br />
-                        <span className="text-green-600">
+                        <span className="text-orange-600">
                           your favorite series again.
                         </span>
                       </h1>
@@ -223,7 +224,7 @@ export default function Home() {
                         of your favorite shows.
                       </p>
                       <a
-                        className="mb-2 inline-block rounded bg-green-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-green-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                        className="mb-2 inline-block rounded bg-orange-600 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-orange-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init
                         data-te-ripple-color="light"
                         href="/signup"
@@ -232,7 +233,7 @@ export default function Home() {
                         Get started
                       </a>
                     </div>
-                    <div className="mb-12 lg:mb-0">
+                    <div className="mb-12 -mt-7 lg:mb-0">
                       <img
                         src={movieSubscriptions.src}
                         className="w-full rounded-lg"
