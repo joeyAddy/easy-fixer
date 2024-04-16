@@ -42,19 +42,19 @@ const Footer = () => {
             <ul className="mb-0 list-none space-y-3">
               <li>
                 <a href="#!" className="text-neutral-800 dark:text-neutral-200">
-                  +234 813 360 0571
+                  +234 806 825 8134
                 </a>
               </li>
               <li>
                 <a href="#!" className="text-neutral-800 dark:text-neutral-200">
-                  +234 703 480 9792
+                  +234 701 565 4568
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#!" className="text-neutral-800 dark:text-neutral-200">
                   hello@easyfixer.ng{" "}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -68,9 +68,10 @@ const Footer = () => {
               <li>
                 <a
                   href="/faqs"
-                  className="text-neutral-800 dark:text-neutral-200"
+                  className="text-neutral-800 dark:text-neutral-200 capitalize"
                 >
-                  No. 29A, <br /> Berkley Street, <br /> Onikan Lagos{" "}
+                  No. 2, Mkr plaza
+                  <br /> by Airforce Road, <br /> Kakuri, Kaduna Nigeria{" "}
                 </a>
               </li>
             </ul>
